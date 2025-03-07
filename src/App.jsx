@@ -1,8 +1,14 @@
+import Navbar from "./common/Navbar"
+import Home from "./pages/Home"
+import Footer from "./common/Footer"
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl">React Demo</h1>
-    </>
+    <div className="h-screen">
+      <Navbar />
+      <Home />
+      <Footer />
+    </div>
   )
 }
 
