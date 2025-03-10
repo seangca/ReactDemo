@@ -1,5 +1,5 @@
 import Navbar from "../common/Navbar"
-import { Route, Switch} from "wouter"
+import { Route, Switch } from "wouter"
 import Home from "../pages/Home"
 import Footer from "../common/Footer"
 import Events from "../pages/Events"
@@ -9,11 +9,11 @@ export default function Router() {
   return (
     <div className="w-screen h-screen overflow-x-hidden">
         <Navbar />
-        <div>
+        <div className="mt-25">
             <Switch>
                 <Route path={"/contact"} component={Contact} />
                 <Route path={"/events"} component={Events} />
-                <Route path="{/}" component={Home} />
+                <Route path={"/"} component={Home} />
             </Switch>
         </div>
         <Footer />
