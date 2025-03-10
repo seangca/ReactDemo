@@ -1,14 +1,8 @@
-import Navbar from "./common/Navbar"
-import Home from "./pages/Home"
-import Footer from "./common/Footer"
+import Router from "./components/Router"
 
 function App() {
   return (
-    <div className="h-screen">
-      <Navbar />
-      <Home />
-      <Footer />
-    </div>
+    <Router />
   )
 }
 

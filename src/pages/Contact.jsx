@@ -2,6 +2,8 @@
 
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <div className="flex flex-col justify-center">
+      Contact
+    </div>
   )
 }
