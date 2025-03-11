@@ -9,7 +9,7 @@ export default function Router() {
   return (
     <div className="w-screen h-screen overflow-x-hidden">
         <Navbar />
-        <div className="mt-25">
+        <div className="mt-10">
             <Switch>
                 <Route path={"/contact"} component={Contact} />
                 <Route path={"/events"} component={Events} />
